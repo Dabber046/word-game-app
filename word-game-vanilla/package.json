@@ -1,0 +1,16 @@
+{
+  "name": "word-game-vanilla",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "cypress run"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vite": "^4.0.0",
+    "cypress": "^12.0.0"
+  }
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Word Game - Vanilla JS</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Guess the Word!</h1>
+    <p id="hint">Hint: </p>
+    <p id="timer">⏳ Time left: </p>
+    <p id="score">🏆 Score: 0</p>
+
+    <div class="difficulty-buttons">
+      <button id="easy-btn">Easy</button>
+      <button id="medium-btn">Medium</button>
+      <button id="hard-btn">Hard</button>
+    </div>
+
+    <input type="text" id="input" placeholder="Type your guess..." />
+    <div class="action-buttons">
+      <button id="submit-btn">Submit</button>
+      <button id="new-btn">New Word</button>
+    </div>
+    <p id="message"></p>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
