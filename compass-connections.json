@@ -1,0 +1,27 @@
+{
+  "type": "Compass Connections",
+  "version": {
+    "$numberInt": "1"
+  },
+  "connections": [
+    {
+      "id": "512da668-0706-4141-9374-3ff046190f81",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1741915211352"
+        }
+      },
+      "favorite": {
+        "name": "dabber.cjswv.mongodb.net",
+        "color": "color1"
+      },
+      "savedConnectionType": "favorite",
+      "connectionOptions": {
+        "connectionString": "mongodb+srv://jjmin94:Iceman1994%3F%3F%3F@dabber.cjswv.mongodb.net/",
+        "oidc": {
+          "serializedState": "eyJvaWRjUGx1Z2luU3RhdGVWZXJzaW9uIjowLCJzdGF0ZSI6W119"
+        }
+      }
+    }
+  ]
+}
